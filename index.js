@@ -1,11 +1,13 @@
-/* let nombre = prompt("Escriba su nombre")
+// 5.- Escribe un programa de tres líneas que pida un número, pida otro número y escriba el resultado de sumar estos dos números.
 
-console.log(nombre); */
+let num1 = +(prompt("Ingresa el primer número"));
 
+let num2 = +(prompt("Ingresa el segundo número"));
 
-let numero = "10.5";
+document.write( num1 + num2)
 
-let numeroParseado = +(numero)
+let number = 10;
 
-console.log(numeroParseado);
+number++;
+
 
