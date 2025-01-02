@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input-event</title>
+</head>
+<body>
+
+    <input type="text" id="campoTexto" placeholder="Escribe algo...">
+
+    <p id="resultado"></p>
+
+    <script>
+        const campoTexto = document.getElementById("campoTexto");
+        const resultado = document.getElementById("resultado");
+
+        campoTexto.addEventListener("input", (event) => {
+                resultado.textContent = `Escibiste: ${event.target.value}`
+        })
+
+         /* 
+  
+Explicación del Parámetro event en Manejadores de Eventos
+Cuando se registra un manejador de eventos en JavaScript, el navegador proporciona automáticamente un objeto llamado event (o cualquier nombre que le asignes como parámetro) a la función asociada. Este objeto contiene información detallada sobre el evento que ocurrió, lo que lo hace muy útil para manejar eventos de forma dinámica.
+
+¿Qué contiene el objeto event?
+El objeto event incluye propiedades y métodos que permiten interactuar con el evento. Algunas de las más comunes son:
+
+type: El tipo de evento (e.g., click, keydown).
+target: El elemento HTML que disparó el evento.
+currentTarget: El elemento al que está asociado el manejador de eventos (similar a this en contextos tradicionales).
+preventDefault(): Método para prevenir el comportamiento predeterminado del evento.
+stopPropagation(): Método para detener la propagación del evento en el DOM.
+key: La tecla presionada (para eventos de teclado).
+  
+  */
+    </script>
+    
+</body>
+</html>

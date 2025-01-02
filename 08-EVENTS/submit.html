@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit-event</title>
+</head>
+<body>
+    <form action="/perfil" id="miFormulario">
+        <input type="text" id="nombre" placeholder="Tu nombre">
+        <button type="submit">Enviar</button>
+    </form>
+
+    <p id="mensaje"></p>
+
+    <script>
+        const formulario = document.getElementById("miFormulario");
+        const mensaje = document.getElementById("mensaje");
+
+
+        formulario.addEventListener('submit', (event) =>{
+            const nombre = document.getElementById("nombre").value;
+            if(!nombre.trim()){
+                event.preventDefault();
+                mensaje.textContent = "Por favor, completa tu nombre antes de enviar";
+                mensaje.style.color = "red";
+            }
+        })
+    </script>
+    
+</body>
+</html>
