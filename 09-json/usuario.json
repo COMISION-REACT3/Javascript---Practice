@@ -1,0 +1,37 @@
+[
+    {
+        "nombre":"Eze",
+        "edad" : 33,
+        "direccion" : {
+            "calle":"Av. 123",
+            "numero": 1234,
+            "ciudad": "Ciudad XYZ"
+        }
+    },
+    {
+        "nombre":"Eze",
+        "edad" : 33,
+        "direccion" : {
+            "calle":"Av. 123",
+            "numero": 1234,
+            "ciudad": "Ciudad XYZ"
+        }
+    },{
+        "nombre":"Eze",
+        "edad" : 33,
+        "direccion" : {
+            "calle":"Av. 123",
+            "numero": 1234,
+            "ciudad": "Ciudad XYZ"
+        }
+    },
+    {
+        "nombre":"Eze",
+        "edad" : 33,
+        "direccion" : {
+            "calle":"Av. 123",
+            "numero": 1234,
+            "ciudad": "Ciudad XYZ"
+        }
+    }
+]
