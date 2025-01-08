@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+*{
+    font-family: "Fjalla One", sans-serif;    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.8s, color 0.8s;
+  }
+
+  /* Temas */
+  body.light {
+    background-color: #ffffff;
+    color: #000000;
+    color:#3d3a3a;
+  }
+
+  body.dark {
+    background-color: #121212;
+    color: #ffffff;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
+  label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+
+  select {
+    font-size: 0.8rem;
+    padding: 8px;
+    cursor: pointer;
+  }
+
+button{
+    padding: 9px 10px; 
+    border: none;
+    cursor: pointer;
+}

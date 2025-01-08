@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preferencias de Tema</title>
+ <link rel="stylesheet" href="/10-localStorage/practica-localStorage/style.css">
+ <!-- SWEETALERT2 -->
+ <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+ <!-- FONTAWESOME -->
+ <script src="https://kit.fontawesome.com/ce970c0111.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+  <div class="container">
+    <h1>Selecciona tu tema de color</h1>
+    <form id="theme-form">
+      <label for="theme-select">Tema:</label>
+      <select id="theme-select">
+        <option value="light">Claro</option>
+        <option value="dark">Oscuro</option>
+      </select>
+      <button type="submit">Guardar preferencia <i class="fa-solid fa-floppy-disk fa-lg"></i></button>
+    </form>
+  </div>
+
+  <script src="/10-localStorage/practica-localStorage/app.js"></script>
+
+</body>
+</html>
