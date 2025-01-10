@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Fjalla One', sans-serif;
+}
+.card {
+  background-color: #1c1c1c;
+  border: none;
+}
+.card-title, .card-text, .btn {
+  color: #fff;
+}
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
