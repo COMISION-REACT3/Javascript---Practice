@@ -1,6 +1,6 @@
 async function fetchPeliculas(){
     const peliculasContainer = document.getElementById('peliculas-container');
-    const url = 'https://my-json-server.typicode.com/IsmaelAxel/API_Pelis/peliculas';
+    const url = 'https://my-json-server.typicode.com/IsmaelAxel/API_Pelis/pelicula';
     try {
         const response = await fetch(url);
         console.log(response);
